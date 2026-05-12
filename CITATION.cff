@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Data and code for: Connectivity and phenotype of vasopressin 1a receptor cells in the lateral septum"
+authors:
+	- family-names: Hartswick
+	  given-names: Delenn
+	- family-names: Zaw
+	  given-names: Arkar
+	- family-names: Schappaugh
+	  given-names: Nicholas
+	- family-names: Friesen
+	  given-names: Caitlin N.
+	  orcid: "https://orcid.org/0000-0003-3545-6625"
+	- family-names: de Vries
+	  given-names: Geert J.
+	- family-names: Petrulis
+	  given-names: Aras
+repository-code: "https://github.com/caitlinfriesen/Hartswick_2026_V1aR_tracing_LS"
+doi: "10.5281/zenodo.XXXXXXX"
+license: CC-BY-4.0
+version: v1.0
+date-released: "2026-05-11"
+preferred-citation:
+	type: article
+	title: "Connectivity and phenotype of vasopressin 1a receptor cells in the lateral septum"
+	authors:
+	- family-names: Hartswick
+	  given-names: Delenn
+	- family-names: Zaw
+	  given-names: Arkar
+	- family-names: Schappaugh
+	  given-names: Nicholas
+	- family-names: Friesen
+	  given-names: Caitlin N.
+	- family-names: de Vries
+	  given-names: Geert J.
+	- family-names: Petrulis
+	  given-names: Aras
+	journal: "bioRxiv"
+	year: 2025
+	doi: "10.1101/2025.10.26.683946"
