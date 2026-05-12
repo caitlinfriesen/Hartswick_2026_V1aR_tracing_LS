@@ -1,0 +1,21 @@
+Package: repository
+Title: Data and Code for Hartswick et al. 2025 - V1aR Cells in the Lateral Septum
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Caitlin", 
+           family = "Friesen", 
+           role = c("aut", "cre"),
+           email = "cfriesen@gsu.edu",
+           comment = c(ORCID = "0000-0003-3545-6625"))
+Description: This repository contains the data and code for Hartswick et al. 
+    2025. Connectivity and phenotype of vasopressin 1a receptor cells in the 
+    lateral septum. bioRxiv. https://doi.org/10.1101/2025.10.26.683946.
+License: CC BY 4.0
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports: here
+Suggests: devtools,
+    git2r
