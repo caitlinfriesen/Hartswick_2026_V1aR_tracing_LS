@@ -4,75 +4,72 @@ format: gfm
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "README-"
-)
-# Please put your title here to include it in the file below.
-Title <- "Title of your paper goes here"
-```
+<!-- README.md is generated from README.qmd. Please edit that file -->
 
-# repository
+# About the project
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh///master?urlpath=rstudio)
+- this is a repository of an R project containing code and source data for the paper **Connectivity and phenotype of vasopressin 1a receptor cells in the lateral septum**. Contributed by [Caitlin Friesen](https://github.com/caitlinfriesen).
 
 This repository contains the data and code for our paper:
 
-> Authors, (YYYY). _`r Title`_. Name of journal/book <https://doi.org/xxx/xxx>
+*Connectivity and phenotype of vasopressin 1a receptor cells in the lateral septum*
+Delenn Hartswick, Arkar Zaw, Nicholas Schappaugh, Caitlin N. Friesen, Geert J. de Vries, Aras Petrulis
+Neuroscience Institute & Center for Behavioral Neuroscience, Georgia State University
+*bioRxiv* (2025) | doi: https://doi.org/10.1101/2025.10.26.683946
 
-Our pre-print is online here:
+## How to cite
 
-> Authors, (YYYY). _`r Title`_. Name of journal/book, Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+Please cite the permanent Zenodo record for the compendium as:
 
+Hartswick, D., Zaw, A., Schappaugh, N., Friesen, C.N., de Vries, G.J., & Petrulis, A. (2025).
+Code documentation for Connectivity and phenotype of vasopressin 1a receptor cells in the lateral septum
+(v1.0). Zenodo.
+<https://doi.org/10.5281/zenodo.XXXXXXX>
 
-### How to cite
+---
 
-Please cite this compendium as:
+## Abstract
 
-> Authors, (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for `r Title`_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+The neuropeptide arginine-vasopressin (AVP) regulates sexually-differentiated social behaviors, including sexual behavior, aggression, and social communication. Much of AVP's effect on social behavior is mediated by the most widely-expressed AVP receptor in the central nervous system: the vasopressin 1a receptor (V1aR). Dense expression of V1aR is found in males and females in the lateral septum (LS), which also receives heavy input from sexually-differentiated populations of AVP cells in the extended amygdala. In order to access and interrogate the structure and function of V1aR cells, we developed and validated a V1aR-Cre knockin mouse line (Avpr1a-P2A-iCre). V1aR-Cre mice did not differ from their Cre-negative littermates in their health, sensorimotor function, anxiety/motivational behavioral responses, or in their V1aR binding levels in the LS. The distribution of Cre in the brain, as assessed by crosses with Cre-reporter mouse lines and in situ hybridization (ISH), was highly similar to patterns of V1aR binding and demonstrated strong colocalization between Cre and V1aR expression within LS cells. We used this V1aR-Cre mouse to identify the inputs and outputs of V1aR+ cells in the LS, via a monosynaptic retrograde rabies virus as well as anterograde synaptophysin-mRuby AAV tracing approaches. Monosynaptic inputs to V1aR LS cells were observed from the medial preoptic area (MPA), lateral hypothalamus (LH), hippocampus (mostly ventral), medial septum, diagonal band of Broca (DBB), and the supramammillary nucleus (SuM). Synaptophysin labeling revealed outputs to some of these same structures (MS, LH, DBB, SuM) as well as parts of the lateral preoptic area (LPO), anterior hypothalamic area (AHA), and ventral pallidum. Notably, most structures (except for hippocampus) bidirectionally connected to V1aR LS cells also contain populations of V1aR+ cells and are targets for BNST/MeA AVP cells, suggesting an integrated AVP/V1aR circuit. Finally, using ISH, we measured levels of V1aR mRNA expression in subregions of the LS and colocalization of V1aR with oxytocin receptor (OTR) mRNA, which also has a high affinity for AVP, within the LS. We found similar high percentages of cells containing V1aR+ puncta across dorsal and intermediate LS in both males and females. In contrast, the ventral LS contained fewer V1aR+ cells in both males and females. The highest level of co-expression of V1aR and OTR was found in the intermediate LS in both sexes, suggesting the possible location of functional interactions between AVP and oxytocin within the LS. We also sought to identify other phenotypic aspects of V1aR cells using ISH and confirmed that all LS V1aR cells are GABAergic and that most also express corticotropin-releasing hormone receptor 2, suggesting a substrate by which AVP could interact with stress-related systems in the LS. Our characterized V1aR-Cre mouse will be a valuable resource for understanding the role of AVP/V1aR in behavioral and physiological systems. Using this mouse, we have characterized the connectional architecture of V1aR cells in the LS and revealed an interlocking set of structures that may be the substrate through which AVP regulates social and emotional behavior.
+
+---
 
 ## Contents
 
-The **analysis** directory contains:
+- 📁 **analysis/data/raw_data/** — Raw data including histological, imaging, and behavioral measures, plus subject-level metadata (sex, treatment group, surgery details)
 
-  - [:file\_folder: paper](/analysis/paper): Quarto source document
-    for manuscript. Includes code to reproduce the figures and tables
-    generated by the analysis. It also has a rendered version,
-    `paper.docx`, suitable for reading (the code is replaced by figures
-    and tables in this file)
-  - [:file\_folder: data](/analysis/data): Data used in the analysis.
-  - [:file\_folder: figures](/analysis/figures): Plots and other
-    illustrations
-  - [:file\_folder:
-    supplementary-materials](/analysis/supplementary-materials):
-    Supplementary materials including notes and other documents
-    prepared and collected during the analysis.
+- 📁 **analysis/data/derived_data/** — Data generated during analysis
 
-## How to run in your browser or download and run locally
+- 📁 **analysis/figures/** — Plots and other illustrations
 
-This research compendium has been developed using the statistical programming
-language R. To work with the compendium, you will need
-installed on your computer the [R software](https://cloud.r-project.org/)
-itself and optionally [RStudio Desktop](https://rstudio.com/products/rstudio/download/).
+- 📁 **R/** — Custom R functions used across analyses
 
-You can download the compendium as a zip from from this URL:
-[master.zip](/archive/master.zip). After unzipping:
-- open the `.Rproj` file in RStudio
-- run `devtools::install()` to ensure you have the packages this analysis depends on (also listed in the
-[DESCRIPTION](/DESCRIPTION) file).
-- finally, open `analysis/paper/paper.Rmd` and knit to produce the `paper.docx`, or run `rmarkdown::render("analysis/paper/paper.qmd")` in the R console
+---
 
-### Licenses
+## How to run locally
 
-**Text and figures :**  [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
+This project was developed in R. To work with the code you will need [R](https://cloud.r-project.org/) (≥ 4.2.0) and optionally [RStudio Desktop](https://rstudio.com/products/rstudio/download/).
 
-**Code :** See the [DESCRIPTION](DESCRIPTION) file
+To download the repository, click **Code → Download ZIP** at the top of this page and unzip it, or clone it via the command line:
 
-**Data :** [CC-0](http://creativecommons.org/publicdomain/zero/1.0/) attribution requested in reuse
+```bash
+git clone https://github.com/caitlinfriesen/Hartswick_2026_V1aR_tracing_LS.git
+```
 
-### Contributions
+Open the `.Rproj` file in RStudio, then run `devtools::install()` to install all required packages (also listed in the [DESCRIPTION](/DESCRIPTION) file).
 
-We welcome contributions from everyone. Before you get started, please see our [contributor guidelines](CONTRIBUTING.md). Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
+---
+
+## How to cite
+
+If you use these data or code, please cite:
+
+> Hartswick D, Zaw A, Schappaugh N, Friesen CN, de Vries GJ, Petrulis A (2025). Connectivity and phenotype of vasopressin 1a receptor cells in the lateral septum. *bioRxiv*. https://doi.org/10.1101/2025.10.26.683946
+
+---
+
+## Acknowledgements
+
+This project is modified after
+<https://annakrystalli.me/rrresearch/10_compendium.html>.
 

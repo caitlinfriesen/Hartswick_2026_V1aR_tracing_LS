@@ -1,0 +1,132 @@
+
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+<!-- README.md is generated from README.qmd. Please edit that file -->
+
+# About the project
+
+- this is a repository of an R project containing code and source data
+  for the paper **Connectivity and phenotype of vasopressin 1a receptor
+  cells in the lateral septum**. Contributed by [Caitlin
+  Friesen](https://github.com/caitlinfriesen).
+
+This repository contains the data and code for our paper:
+
+*Connectivity and phenotype of vasopressin 1a receptor cells in the
+lateral septum* Delenn Hartswick, Arkar Zaw, Nicholas Schappaugh,
+Caitlin N. Friesen, Geert J. de Vries, Aras Petrulis Neuroscience
+Institute & Center for Behavioral Neuroscience, Georgia State University
+*bioRxiv* (2025) \| doi: https://doi.org/10.1101/2025.10.26.683946
+
+## How to cite
+
+Please cite the permanent Zenodo record for the compendium as:
+
+Hartswick, D., Zaw, A., Schappaugh, N., Friesen, C.N., de Vries, G.J., &
+Petrulis, A. (2025). Code documentation for Connectivity and phenotype
+of vasopressin 1a receptor cells in the lateral septum (v1.0). Zenodo.
+<https://doi.org/10.5281/zenodo.XXXXXXX>
+
+------------------------------------------------------------------------
+
+## Abstract
+
+The neuropeptide arginine-vasopressin (AVP) regulates
+sexually-differentiated social behaviors, including sexual behavior,
+aggression, and social communication. Much of AVP’s effect on social
+behavior is mediated by the most widely-expressed AVP receptor in the
+central nervous system: the vasopressin 1a receptor (V1aR). Dense
+expression of V1aR is found in males and females in the lateral septum
+(LS), which also receives heavy input from sexually-differentiated
+populations of AVP cells in the extended amygdala. In order to access
+and interrogate the structure and function of V1aR cells, we developed
+and validated a V1aR-Cre knockin mouse line (Avpr1a-P2A-iCre). V1aR-Cre
+mice did not differ from their Cre-negative littermates in their health,
+sensorimotor function, anxiety/motivational behavioral responses, or in
+their V1aR binding levels in the LS. The distribution of Cre in the
+brain, as assessed by crosses with Cre-reporter mouse lines and in situ
+hybridization (ISH), was highly similar to patterns of V1aR binding and
+demonstrated strong colocalization between Cre and V1aR expression
+within LS cells. We used this V1aR-Cre mouse to identify the inputs and
+outputs of V1aR+ cells in the LS, via a monosynaptic retrograde rabies
+virus as well as anterograde synaptophysin-mRuby AAV tracing approaches.
+Monosynaptic inputs to V1aR LS cells were observed from the medial
+preoptic area (MPA), lateral hypothalamus (LH), hippocampus (mostly
+ventral), medial septum, diagonal band of Broca (DBB), and the
+supramammillary nucleus (SuM). Synaptophysin labeling revealed outputs
+to some of these same structures (MS, LH, DBB, SuM) as well as parts of
+the lateral preoptic area (LPO), anterior hypothalamic area (AHA), and
+ventral pallidum. Notably, most structures (except for hippocampus)
+bidirectionally connected to V1aR LS cells also contain populations of
+V1aR+ cells and are targets for BNST/MeA AVP cells, suggesting an
+integrated AVP/V1aR circuit. Finally, using ISH, we measured levels of
+V1aR mRNA expression in subregions of the LS and colocalization of V1aR
+with oxytocin receptor (OTR) mRNA, which also has a high affinity for
+AVP, within the LS. We found similar high percentages of cells
+containing V1aR+ puncta across dorsal and intermediate LS in both males
+and females. In contrast, the ventral LS contained fewer V1aR+ cells in
+both males and females. The highest level of co-expression of V1aR and
+OTR was found in the intermediate LS in both sexes, suggesting the
+possible location of functional interactions between AVP and oxytocin
+within the LS. We also sought to identify other phenotypic aspects of
+V1aR cells using ISH and confirmed that all LS V1aR cells are GABAergic
+and that most also express corticotropin-releasing hormone receptor 2,
+suggesting a substrate by which AVP could interact with stress-related
+systems in the LS. Our characterized V1aR-Cre mouse will be a valuable
+resource for understanding the role of AVP/V1aR in behavioral and
+physiological systems. Using this mouse, we have characterized the
+connectional architecture of V1aR cells in the LS and revealed an
+interlocking set of structures that may be the substrate through which
+AVP regulates social and emotional behavior.
+
+------------------------------------------------------------------------
+
+## Contents
+
+- 📁 **analysis/data/raw_data/** — Raw data including histological,
+  imaging, and behavioral measures, plus subject-level metadata (sex,
+  treatment group, surgery details)
+
+- 📁 **analysis/data/derived_data/** — Data generated during analysis
+
+- 📁 **analysis/figures/** — Plots and other illustrations
+
+- 📁 **R/** — Custom R functions used across analyses
+
+------------------------------------------------------------------------
+
+## How to run locally
+
+This project was developed in R. To work with the code you will need
+[R](https://cloud.r-project.org/) (≥ 4.2.0) and optionally [RStudio
+Desktop](https://rstudio.com/products/rstudio/download/).
+
+To download the repository, click **Code → Download ZIP** at the top of
+this page and unzip it, or clone it via the command line:
+
+``` bash
+git clone https://github.com/caitlinfriesen/Hartswick_2026_V1aR_tracing_LS.git
+```
+
+Open the `.Rproj` file in RStudio, then run `devtools::install()` to
+install all required packages (also listed in the
+[DESCRIPTION](./DESCRIPTION) file).
+
+------------------------------------------------------------------------
+
+## How to cite
+
+If you use these data or code, please cite:
+
+> Hartswick D, Zaw A, Schappaugh N, Friesen CN, de Vries GJ, Petrulis A
+> (2025). Connectivity and phenotype of vasopressin 1a receptor cells in
+> the lateral septum. *bioRxiv*.
+> https://doi.org/10.1101/2025.10.26.683946
+
+------------------------------------------------------------------------
+
+## Acknowledgements
+
+This project is modified after
+<https://annakrystalli.me/rrresearch/10_compendium.html>.
