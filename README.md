@@ -1,7 +1,5 @@
 
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
 # About the project
@@ -26,7 +24,7 @@ Please cite the permanent Zenodo record for the compendium as:
 Hartswick, D., Zaw, A., Schappaugh, N., Friesen, C.N., de Vries, G.J., &
 Petrulis, A. (2025). Code documentation for Connectivity and phenotype
 of vasopressin 1a receptor cells in the lateral septum (v1.0). Zenodo.
-<https://doi.org/10.5281/zenodo.XXXXXXX>
+<https://doi.org/10.5281/zenodo.20130920>
 
 ------------------------------------------------------------------------
 
